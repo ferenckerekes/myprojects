@@ -1,0 +1,118 @@
+body{
+	background-color: #232323;
+	margin: 0;
+	font-family: "Montserrat", "Avenir";
+}
+
+h1, h2 {
+	text-align: center;
+	color: white;
+	background-color: block;
+	font-size: 40px;
+
+}
+h1:hover {
+	color: green;
+}
+#name1:hover {
+	color: blue;
+}
+ #name2:hover{
+	color: yellow;
+}
+#name1 {
+	padding-right: 50px;
+}
+p {
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+}
+
+
+#nameDisplay{
+	background: block;
+	height: 30px;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	width: 100%;
+	text-transform: uppercase;
+
+}
+
+#score {
+	text-align: center;
+}
+
+#stripe{
+	background: white;
+	height: 55px;
+	text-align: center;
+	color: black;
+}
+
+#container{
+	margin: 5px auto;
+	max-width: 600px;
+	
+}
+
+#message{
+	display: inline-block;
+	width: 30%;
+	text-transform: uppercase;
+	color: steelblue;
+	text-align: center;
+}
+
+#squares{
+	width: 30%;
+	background: green;
+	padding-bottom: 25%;
+	float: left;
+	margin: 1.36%;
+	border-radius: 35%;
+	transition: background 0.6s;
+	-webkit-transition:background 0.6s;
+	-moz-transition:background 0.6s;
+}
+
+button, h3 {
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.4s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	outline: none;
+}
+
+button:hover {
+	color: white;
+	background: steelblue;
+	border-radius: 65%;
+}
+
+.big1{
+	color: blue;
+	font-size: 35px;
+}
+.big2{
+	color: yellow;
+}
+
+#z{
+	color: green;
+}
+#k{
+	color: blue;
+}
+#s{
+	color: yellow;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ZKS Game</title>
+	<link rel="stylesheet" type="text/css" href="ZKSgame.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+</head>
+<body>
+<h1 id="gameTitle">"Kedvenc szinem a <spam id="z">zöld</spam>. Te a <spam id="k">kék</spam>, S én a <spam id="s">sárga</spam>."</h1>
+
+<p> The Number Of Rounds:
+	<input align="right" id="roundNumber" type="number" name="" minlength="1" maxlength="1" min="1" max="9" required>
+</p>
+
+<div id="nameDisplay">
+	<h4>
+	<input id="checked1" type="checkbox" name="name1" value="">
+	<i class="fas fa-child big1"></i>
+	<span id="p1Score" class="big1"></span>
+	<span id="name1" class="">Name</span>
+
+	<input id="checked2" type="checkbox" name="name2" value="">
+	<i class="fas fa-child big2"></i>
+	<span id="p2Score" class="big2"></span>
+	<span id="name2" class="">Name</span>
+	</h4>
+</div>
+
+<div id="stripe">
+	<h3>
+		<button id="reset">New Game</button>
+		<span id="message"></span>
+		<button id="nextRound">Next Round</button>
+	</h3>
+</div>
+
+<div id="container">
+	<div id="squares"></div>
+	<div id="squares"></div>
+	<div id="squares"></div>
+	<div id="squares"></div>
+	<div id="squares"></div>
+	<div id="squares"></div>
+	<div id="squares"></div>
+	<div id="squares"></div>
+	<div id="squares"></div>
+</div>
+
+
+<script type="text/javascript" src="ZKSgame.js"></script>
+</body>
+</html>
